@@ -1,0 +1,16 @@
+body {
+	width: 800px;
+	length: 600px;
+}
+
+#title {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 2em;
+
+}
+
+nav ul li {
+	background-color: yellow;
+	display: inline-block;
+}
