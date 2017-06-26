@@ -10,6 +10,6 @@ function createNavBar(navigationBar){
 }
 
 window.addEventListener("load", function navAndName(){
-	var navBar = document.getElementById("menuBar").innerHTML;
+	var navBar = document.getElementById("menuBar");
 	createNavBar(navBar);
 }, false);
