@@ -5,7 +5,7 @@
 
 }
 
-nav ul li {
+#menuItems {
 	background-color: yellow;
 	display: inline-block;
 }
