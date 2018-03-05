@@ -4,10 +4,11 @@ var menuOptions = ['Home', 'About', 'Portfolio', 'Contact'];
 function createNavBar(navigationBar){
 	for(var i=0; i<menuOptions.length; i++){
 		var listItem = document.createElement('li');
-		listItem.innerHTML = menuOptions[i];
-		listItem.id = "menuItems";
+		listItem.className = "menuItems";
 		var associatedLink = document.createElement('a');
-		associatedLink.href = "currentPage.html";
+		associatedLink.href = "mobileVersion.html";
+		associatedLink.innerHTML = menuOptions[i];
+		associatedLink.className = "menuItemsLinks"
 		listItem.appendChild(associatedLink);
 		navigationBar.appendChild(listItem);
 	}
@@ -16,4 +17,6 @@ function createNavBar(navigationBar){
 window.addEventListener("load", function navAndName(){
 	var navBar = document.getElementById("menuBar");
 	createNavBar(navBar);
-}, false);
+	console.log(window.location.pathname);
+	console.log(window.location.href);
+});
