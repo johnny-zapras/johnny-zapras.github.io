@@ -19,4 +19,5 @@ window.addEventListener("load", function navAndName(){
 	createNavBar(navBar);
 	console.log(window.location.pathname);
 	console.log(window.location.href.toString());
+	console.log("butt");
 });
