@@ -18,5 +18,5 @@ window.addEventListener("load", function navAndName(){
 	var navBar = document.getElementById("menuBar");
 	createNavBar(navBar);
 	console.log(window.location.pathname);
-	console.log(window.location.href);
+	console.log(window.location.href.toString());
 });
